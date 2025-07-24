@@ -1,18 +1,18 @@
 #include <ESP8266WiFi.h>
 
-#define BLYNK_TEMPLATE_ID "TMPL61nFNGEDt"
-#define BLYNK_TEMPLATE_NAME "nodemcu project"
+#define BLYNK_TEMPLATE_ID ""
+#define BLYNK_TEMPLATE_NAME ""
 
 #include <BlynkSimpleEsp8266.h>
 #include <DHT.h>
 
 
 // WiFi credentials
-char ssid[] = "mrinmoy_dibyo";
-char pass[] = "mrinmoy23";
+char ssid[] = "";
+char pass[] = "";
 
 // Blynk Auth Token
-char auth[] = "WaTqkREZsvOacyHcnGe-IT4poNpsiQC9";
+char auth[] = "";
 
 // DHT sensor pin
 #define DHTPIN D7  // You can change this to the ESP32 pin you are using
